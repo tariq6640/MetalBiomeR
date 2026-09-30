@@ -1,0 +1,59 @@
+# MetalBiomeR
+
+## Overview
+
+MetalBiomeR is an R package for integrated analysis of heavy metal contamination and microbial communities, including 16S rRNA, ITS, and AMF datasets.
+
+### Current Features
+
+- Metal-microbe correlations
+- Correlation heatmaps
+- Metal-microbe networks
+- Keystone taxa detection
+- Metal tolerance index
+- Bioaccumulation factor
+- Translocation factor
+- Remediation index
+
+## Installation
+
+```r
+devtools::install_github(
+  "tariq6640/MetalBiomeR"
+)
+```
+
+## Example
+
+```r
+corr <- metal_correlate(
+  otu,
+  metal
+)
+
+metal_heatmap(corr)
+
+g <- metal_network(corr)
+
+keystone_taxa(g)
+```
+
+## Authors
+
+Tariq Shah
+
+University of North Carolina, NC
+
+Mohamed Hijri
+
+Institut de Recherche en Biologie Végétale (IRBV), 
+Département de Sciences Biologiques, Université de Montréal, 
+Montreal, QC H1X 2B2, Canada
+
+
+African Genome Center, University Mohammed VI Polytechnic (UM6P),
+Ben Guerir 43150, Morocco
+
+## License
+
+MIT
