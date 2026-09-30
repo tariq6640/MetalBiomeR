@@ -6,14 +6,17 @@ MetalBiomeR is an R package for integrated analysis of heavy metal contamination
 
 ## Current Features
 
-- Metal-microbe correlations
-- Correlation heatmaps
-- Metal-microbe networks
-- Keystone taxa detection
-- Metal tolerance index
-- Bioaccumulation factor
-- Translocation factor
-- Remediation index
+## Functions
+
+| Function | Description |
+| `metal_correlate() | Metal–taxa correlation analysis |
+| `metal_heatmap() | Correlation heatmap visualization |
+| `metal_network() | Metal-microbe network generation |
+| `keystone_taxa() | Keystone taxa identification |
+| `metal_tolerance_index() | Metal tolerance assessment |
+| `bioaccumulation_factor() | Plant metal accumulation metric |
+| `translocation_factor() | Root-to-shoot metal transfer metric |
+| `remediation_index() | Metal removal efficiency calculation |
 
 ## Installation
 
